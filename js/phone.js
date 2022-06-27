@@ -43,6 +43,8 @@ const displaySearchResults= data=> {
        </div>
         `;
         cardContainer.appendChild(resultCard);
+        const noItem= document.createElement('h3');
+        noItem.innerText='';
       }
     });
   }
